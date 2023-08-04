@@ -66,7 +66,7 @@ export default function Home({searchParams}: HomeProps) {
             <div className='grid xl:grid-cols-4 min-[1200px]:grid-cols-3 md:grid-cols-2 
               grid-cols-1 w-full gap-8 pt-14 place-items-center'>
               {filteredCountries.map((country: CountryProps) => 
-              <Link key={country.name.common} href={`/country/${country.cca3}`}>
+              <Link key={country.name.common} href={`/country/${country.cca3}`} >
                 <CountryCard country={country}/>
               </Link>
               )}

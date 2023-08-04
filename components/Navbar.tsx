@@ -39,8 +39,9 @@ const Navbar = () => {
         className="max-width flex justify-between 
       items-center sm:px-16 px-6 py-4 "
       >
-        <Link href={'/'}>
-          <h1 className="font-semibold text-sm xs:text-xl text-very-dark-blue-text dark:text-white">
+        <Link href={'/'} >
+          <h1 className="font-semibold text-sm xs:text-xl text-very-dark-blue-text
+           dark:text-white">
             Where in the World?
           </h1>
         </Link>
@@ -48,7 +49,7 @@ const Navbar = () => {
         <button
           onClick={toggleTheme}
           className="flex gap-x-2 items-center text-xs xs:text-base text-very-dark-blue-text 
-          dark:text-white font-semibold p-1 outline-2 outline-dark-gray"
+          dark:text-white font-semibold p-1"
         >
           {theme === "Light" ? (
             <>
