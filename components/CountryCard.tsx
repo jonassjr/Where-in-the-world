@@ -21,7 +21,7 @@ const CountryCard = ({country}: CardCountryProps) => {
       />
 
       <div className='bg-white dark:bg-dark-blue ease-in-out duration-300 p-4 flex flex-col gap-2 rounded-b-lg'>
-        <h3 className='text-base font-semibold text-very-dark-blue-text dark:text-white line-clamp-1'>{name.common}</h3>
+        <h2 className='text-base font-semibold text-very-dark-blue-text dark:text-white line-clamp-1'>{name.common}</h2>
         <div className='font-light flex flex-col gap-1 text-sm text-very-dark-blue-text dark:text-white'>
           <p><span className='font-semibold'>Population:</span> {population}</p>
           <p><span className='font-semibold'>Region:</span> {region}</p>
