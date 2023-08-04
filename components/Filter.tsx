@@ -30,17 +30,16 @@ const Filter: React.FC<FilterProps> = () => {
   
     router.push(newPathName);
   };
-  
-  
-  
+    
   return (
     <DropdownMenu.Root 
       onOpenChange={setIsOpen}
       >
       <DropdownMenu.Trigger asChild >
-        <button className='flex items-center w-[220px] h-[3rem] justify-between
+        <button className='flex items-center w-[220px] h-[3rem] justify-between focus:transition-none
           bg-white dark:bg-dark-blue shadow-md px-6 rounded-lg text-sm font-semibold text-dark-gray 
-          dark:text-white ease-in-out duration-300 border-transparent border-2 focus:border-2 focus:border-dark-gray focus:outline-none'>
+          dark:text-very-Light-gray ease-in-out duration-300 border-transparent border-2 focus:border-2 focus:border-dark-gray 
+          focus:outline-none'>
           {selected}
           {isOpen ? 
           <ArrowUp2 variant='Broken' size={16}/>:

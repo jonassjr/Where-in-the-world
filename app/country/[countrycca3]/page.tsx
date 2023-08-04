@@ -42,12 +42,12 @@ const Country = () => {
   return (
     <main className="overflow-hidden bg-very-Light-gray dark:bg-very-dark-blue min-h-screen ease-in-out duration-300">
       <section>
-        <div className='mt-12 mb-4 padding-x padding-y max-width'>
-          <div className="mt-6">
+        <div className='mt-12 mb-4 padding-x padding-y max-width '>
+          <div className="mt-6 ">
             <button
             onClick={handleBack}
             className="bg-white dark:bg-dark-blue text-very-dark-blue-text dark:text-white px-5 h-[3rem] 
-            rounded-md text-base shadow-md flex gap-x-2 items-center ease-in-out duration-300">
+            rounded-md text-base shadow-md flex gap-x-2 focus:transition-none items-center ease-in-out duration-300">
               <ArrowLeft size={22} variant="Broken" className="text-very-dark-blue-text dark:text-white ease-in-out duration-300"/>
               Back
             </button>

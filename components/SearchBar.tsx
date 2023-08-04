@@ -31,8 +31,8 @@ const SearchBar = ({onSearch}: SearchBarProps) => {
           name="country"
           placeholder='Search for a country...'
           className='pl-14 pr-2 h-[3rem] w-full xs:w-[20rem] rounded-md shadow-md text-dark-gray dark:text-white
-          placeholder:text-dark-gray placeholder:text-sm border-transparent border-2 focus:border-dark-gray 
-          focus:border-2 focus:outline-none bg-white dark:bg-dark-blue ease-in-out duration-300 
+          placeholder:text-dark-gray dark:placeholder:text-very-Light-gray placeholder:text-sm border-transparent border-2 focus:border-dark-gray 
+          focus:border-2 focus:outline-none focus:transition-none bg-white dark:bg-dark-blue ease-in-out duration-300 
           text-sm'
           onChange={(e) => handleSearch(e.target.value)}
           />
